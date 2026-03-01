@@ -1,0 +1,37 @@
+{
+    "name": "webext-split-view",
+    "version": "0.1.0",
+    "description": "Split view layout for Chrome extension pages — resizable panels, saved presets, draggable dividers, and responsive breakpoints for MV3.",
+    "author": "Zovo <hello@zovo.one>",
+    "license": "MIT",
+    "keywords": [
+        "chrome-extension",
+        "split-view",
+        "layout",
+        "panels",
+        "resize",
+        "divider",
+        "manifest-v3",
+        "browser-extension",
+        "ui"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/theluckystrike/webext-split-view.git"
+    },
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.260",
+        "typescript": "^5.3.3"
+    }
+}
