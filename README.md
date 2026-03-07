@@ -1,5 +1,5 @@
 [![CI](https://github.com/theluckystrike/webext-split-view/actions/workflows/ci.yml/badge.svg)](https://github.com/theluckystrike/webext-split-view/actions)
-[![npm](https://img.shields.io/npm/v/webext-split-view)](https://www.npmjs.com/package/webext-split-view)
+[![npm](https://img.shields.io/npm/v/@theluckystrike/webext-split-view)](https://www.npmjs.com/package/@theluckystrike/webext-split-view)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 
@@ -10,17 +10,17 @@ Resizable panel layout for Chrome extension pages. Supports horizontal and verti
 ## Installation
 
 ```bash
-npm install webext-split-view
+npm install @theluckystrike/webext-split-view
 ```
 
 ```bash
-npm i webext-split-view
+npm i @theluckystrike/webext-split-view
 ```
 
 ## Usage
 
 ```typescript
-import { SplitView } from 'webext-split-view';
+import { SplitView } from '@theluckystrike/webext-split-view';
 
 const split = new SplitView();
 
