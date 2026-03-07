@@ -1,8 +1,17 @@
+[![CI](https://github.com/theluckystrike/webext-split-view/actions/workflows/ci.yml/badge.svg)](https://github.com/theluckystrike/webext-split-view/actions)
+[![npm](https://img.shields.io/npm/v/webext-split-view)](https://www.npmjs.com/package/webext-split-view)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+
 # webext-split-view
 
 Resizable panel layout for Chrome extension pages. Supports horizontal and vertical splits with draggable dividers, ratio control, and layout persistence via Chrome storage.
 
 ## Installation
+
+```bash
+npm install webext-split-view
+```
 
 ```bash
 npm i webext-split-view
@@ -74,3 +83,11 @@ Loads a saved layout from Chrome storage by name and applies the ratio.
 webext-split-view is maintained by theluckystrike and built for modern Chrome extensions using Manifest V3. It provides a clean, resizable split panel layout suitable for code editors, preview panels, and other side-by-side UI configurations.
 
 For questions and support, please open an issue on GitHub.
+
+## License
+
+MIT
+
+---
+
+Built by [theluckystrike](https://github.com/theluckystrike) — [zovo.one](https://zovo.one)
